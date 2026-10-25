@@ -1,0 +1,13 @@
+{
+  "name": "cashflow-sa",
+  "version": "0.1.0",
+  "description": "CashFlow SA - get paid, stay in control. Payment-agreement tracking for South African small businesses.",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22.13" },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server/index.js",
+    "seed": "node --disable-warning=ExperimentalWarning server/seed.js --reset",
+    "test": "node --disable-warning=ExperimentalWarning --test \"tests/**/*.test.js\""
+  }
+}
